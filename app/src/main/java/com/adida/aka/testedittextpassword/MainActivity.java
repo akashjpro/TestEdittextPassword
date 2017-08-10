@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                     isShowPass = false;
                     tvPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
                 }
+                tvPassword.setSelection(tvPassword.length());
             }
         });
     }
